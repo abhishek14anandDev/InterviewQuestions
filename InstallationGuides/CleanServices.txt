@@ -22,6 +22,9 @@ mkdir -p /etc/mysql/conf.d
 docker rm `docker ps -a -q` -f
 docker rmi `docker images -q`
 
+To install the Nagios please find below command:-
+curl https://assets.nagios.com/downloads/nagiosxi/install.sh | sh
+
 
 For Kubernetes Clean up
 
